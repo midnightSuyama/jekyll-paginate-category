@@ -1,5 +1,8 @@
 # Jekyll::Paginate::Category
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-paginate-category.png)](http://badge.fury.io/rb/jekyll-paginate-category)
+[![Dependency Status](https://gemnasium.com/midnightSuyama/jekyll-paginate-category.png)](https://gemnasium.com/midnightSuyama/jekyll-paginate-category)
+
 Pagination Generator for Jekyll Category
 
 ## Installation
