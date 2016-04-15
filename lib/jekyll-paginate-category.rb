@@ -30,6 +30,7 @@ module Jekyll
 
           @name = Paginate::Pager.paginate_path(site, num_page)
           @name.concat '/' unless @name.end_with? '/'
+          @name += 'index.html'
 
           self.process(@name)
 
