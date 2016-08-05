@@ -42,6 +42,10 @@ module Jekyll
                            'paginator' => Paginate::Pager.new(site, num_page, site.categories[category])
                           )
         end
+
+        def template
+          '/:path/:basename:output_ext'
+        end
       end
       
     end
