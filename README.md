@@ -47,6 +47,12 @@ category_layout: "index.html"
 {% endfor %}
 ```
 
+## Simple how-to
+
+This plugin is designed to generate paginated categories for your jekyll project. If you've added categories to the YAML front matter for your posts, the only files you should need to change are your `_config.yml` and `index.html` files.
+
+Change these files as indicated below, then build your project. A set of paginated category pages will be generated in your `_site` folder, in the folder you specify in `category_dir`. The structure of these will be based on your `index.html` file, and the page.title for each will be the name of the category. These will then be accessible at e.g. /categories/mycategory.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
